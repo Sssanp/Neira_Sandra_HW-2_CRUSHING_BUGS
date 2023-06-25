@@ -1,0 +1,16 @@
+Bug plan solution:
+
+1st: be able to just drag & drop just one puzzle piece into the each drop zone
+
+For achieve this this: 
+
+handleDrop is responsible for handling the drop event when a puzzle piece is dropped into a drop zone. It prevents the default behaviour, checks if the drop zone already has a piece (children.length >= 1) and if not, adds the draggedPiece to the drop zone.
+
+By adding e.preventDefault();:
+ -Prevents the default behaviour of the drop event.
+
+The condition if (this.children.length >= 1) { return; }:  
+ -Checks if the drop zone already has a child element. In this case not adding a piece on top of another.
+
+this.appendChild(draggedPiece);: 
+ -If the drop zone is empty, append the draggedPiece to the current drop zone. Moves the puzzle piece from the drag zone to the drop zone.
