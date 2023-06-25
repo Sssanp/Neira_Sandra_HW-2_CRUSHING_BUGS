@@ -1,6 +1,5 @@
 # Neira_Sandra_HW-2_CRUSHING_BUGS
-TROUBLESHOOTING JAVASCRIPT
-Research assignment
+TROUBLESHOOTING JAVASCRIPT, Research assignment
 
 ## Assignment Requirements:
 
