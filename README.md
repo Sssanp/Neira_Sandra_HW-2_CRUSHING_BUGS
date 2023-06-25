@@ -7,7 +7,7 @@ Use the in-class build files (the Puzzle Drag and Drop) to fix two bugs that wer
 
 1st bug: You can drag and drop more than one puzzle piece into a drop zone this shouldn’t happen. There should only be one piece in one drop zone at a time.
 
-2nd bug:  problem with pieces appearing in the drop zones on reset / choosing a new puzzle. Those should be removed/reparented back to the drag zone, so the player has a fresh board to drop onto.
+2nd bug:  Problem with pieces appearing in the drop zones on reset / choosing a new puzzle. Those should be removed/reparented back to the drag zone, so the player has a fresh board to drop onto.
 
 (Articulating the solution first will be a great help in completing the assignment successfully)
 
